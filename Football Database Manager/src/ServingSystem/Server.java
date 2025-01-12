@@ -47,6 +47,7 @@ public class Server {
 
     }
     
+    
     public List<Player> getClientPlayerList(String s) {
         List<Player> list = new ArrayList<>();
         for(Player p : playerList) {
