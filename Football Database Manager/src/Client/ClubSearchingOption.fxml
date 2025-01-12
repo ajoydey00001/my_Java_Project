@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.ClubSearchingOptionController">
+   <children>
+      <Label layoutX="270.0" layoutY="70.0" text="Club Searching Option">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="179.0" text="Player(s) with the maximum salary of this club">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="251.0" text="Player(s) with the maximum age of this club">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="332.0" text="Player(s) with the maximum height of this club">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="405.0" text="Total yearly salary of this club">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="511.0" text="Back to Main Menu">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="salary" layoutX="741.0" layoutY="171.0" mnemonicParsing="false" onAction="#salaryAction" prefHeight="35.0" prefWidth="134.0" text="Click">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="741.0" layoutY="494.0" mnemonicParsing="false" onAction="#backAction" prefHeight="35.0" prefWidth="134.0" text="Click">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="total" layoutX="741.0" layoutY="390.0" mnemonicParsing="false" onAction="#totalAction" prefHeight="35.0" prefWidth="134.0" text="Click">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="height" layoutX="741.0" layoutY="315.0" mnemonicParsing="false" onAction="#heightAction" prefHeight="35.0" prefWidth="134.0" text="Click">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="age" layoutX="741.0" layoutY="243.0" mnemonicParsing="false" onAction="#ageAction" prefHeight="35.0" prefWidth="134.0" text="Click">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

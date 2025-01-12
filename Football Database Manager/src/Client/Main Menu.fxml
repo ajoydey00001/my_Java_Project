@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.MainMenuController">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="700.0" prefWidth="900.0" GridPane.rowIndex="1">
+         <children>
+            <Label fx:id="menu" layoutX="15.0" layoutY="14.0" prefHeight="70.0" prefWidth="886.0" text="Main Menu Of Manchester United ">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Label>
+            <Label layoutX="72.0" layoutY="204.0" text="Search  Players">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="72.0" layoutY="296.0" text="Search In Club">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="72.0" layoutY="384.0" text="Sell Player">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="72.0" layoutY="561.0" prefHeight="54.0" prefWidth="214.0" text="Exit System">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Button fx:id="players" layoutX="639.0" layoutY="207.0" mnemonicParsing="false" onAction="#playerAction" prefHeight="46.0" prefWidth="172.0" text="Click">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="clubs" layoutX="639.0" layoutY="297.0" mnemonicParsing="false" onAction="#clubAction" prefHeight="46.0" prefWidth="172.0" text="Click">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="sell" layoutX="639.0" layoutY="385.0" mnemonicParsing="false" onAction="#sellAction" prefHeight="46.0" prefWidth="172.0" text="Click">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="exited" layoutX="639.0" layoutY="563.0" mnemonicParsing="false" onAction="#exitAction" prefHeight="46.0" prefWidth="172.0" text="Click">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Label layoutX="72.0" layoutY="123.0" text="Player List">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Button fx:id="playerList" layoutX="639.0" layoutY="124.0" mnemonicParsing="false" onAction="#playerListAction" prefHeight="46.0" prefWidth="172.0" text="Click">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Label layoutX="72.0" layoutY="469.0" text="Buy Player">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Button fx:id="buy" layoutX="639.0" layoutY="470.0" mnemonicParsing="false" onAction="#buyAction" prefHeight="46.0" prefWidth="172.0" text="Click">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
