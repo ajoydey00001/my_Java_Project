@@ -28,4 +28,3 @@ The Football Player Database System should provide the following features:
 # (4) Exit System:
 All the players currently in memory are
 automatically saved back to "players.txt" if any new player is added.
-
