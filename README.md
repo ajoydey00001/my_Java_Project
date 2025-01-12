@@ -11,7 +11,20 @@ The Football Player Database System should provide the following features:
 
 
 # **Main Menu: **
--  Search Players:
-- (2) Search Clubs
-- (3) Add Player
-- (4) Exit System
+# (1)Search Players:
+- (1) By Player Name
+- (2) By Club and Country
+- (3) By Position
+- (4) By Salary Range
+- (5) Country-wise player count
+- (6) Back to Main Menu
+# (2) Search Clubs
+- (1) Player(s) with the maximum salary of a club
+- (2) Player(s) with the maximum age of a club
+- (3) Player(s) with the maximum height of a club
+- (4) Total yearly salary of a club
+- (5) Back to Main Menu
+# (3) Add Player
+# (4) Exit System:
+All the players currently in memory are
+automatically saved back to "players.txt" if any new player is added.
